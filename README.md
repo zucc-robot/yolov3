@@ -5,3 +5,5 @@ They apply the model to an image at multiple locations and scales. High scoring 
 YOLO uses a totally different approach. It applies a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
 # This model has several advantages over classifier-based systems. It looks at the whole image at test time so its predictions are informed by global context in the image. 
 It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image.
+#Weights and Config Files Uploaded in Data
+The link to access the weights and the configuration file for this project are present in the data folder. 
